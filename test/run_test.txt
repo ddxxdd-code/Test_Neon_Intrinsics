@@ -1,0 +1,4 @@
+gcc -march=armv8.3-a+fp16 -o test_input test_input_transform.cpp
+gcc -march=armv8.3-a+fp16 -o test_kernel test_kernel_transform.cpp
+gcc -march=armv8.3-a+fp16 -o test_output test_output_transform.cpp
+gcc -march=armv8.3-a+fp16 -o test_cast test_cast.cpp
